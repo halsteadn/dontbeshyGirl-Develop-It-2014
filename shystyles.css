@@ -1,0 +1,53 @@
+body {
+    background-color:beige;
+    font-family: open-sans, arial, helvetica, sans-serif;
+}
+.box {
+        height: 150px;
+        width: 150px;
+        border: 20px solid yellow;
+       box-shadow: -2px solid grey;
+    }
+.green {
+/*      padding:5px;*/
+    text-align:center;
+}
+p {
+    font-size: 160%;
+}
+h4, h5 {
+    color: #ff00b8;
+}
+h1  {
+    color:beige;
+    font-family: serif;
+/*    font-stretch:ultra-condensed;*/
+    font-size:1.8em;
+    padding-top:17px;
+}
+button,
+input,
+select,
+textarea {
+  margin: 5px;
+  font-family: inherit;
+  font-size: 111%;
+}
+
+button,
+input {
+  line-height:inherit;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
